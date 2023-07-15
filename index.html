@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <div class="con-like">
+    <input title="like" type="checkbox" class="like">
+    <div class="checkmark">
+      <svg viewBox="0 0 24 24" class="outline" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+      </svg>
+      <svg viewBox="0 0 24 24" class="filled" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+      </svg>
+      <svg class="celebrate" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="10,10 20,20" class="poly"></polygon>
+        <polygon points="10,50 20,50" class="poly"></polygon>
+        <polygon points="20,80 30,70" class="poly"></polygon>
+        <polygon points="90,10 80,20" class="poly"></polygon>
+        <polygon points="90,50 80,50" class="poly"></polygon>
+        <polygon points="80,80 70,70" class="poly"></polygon>
+      </svg>
+    </div>
+  </div>
+  <body>
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+      <div class="loader"></div>
+     
+      <nav>
+        <a style="animation-delay: 0.2s" href="https://h5p.org/h5p/embed/64158" target="z1"><span class="material-symbols-outlined">
+          map
+          </span>MAP</a>
+        <a style="animation-delay: 0.3s" href="https://inyulun.github.io/0531/" target="z1"><span class="material-symbols-outlined">
+          cloudy_snowing
+          </span>作品</a>
+          <a style="animation-delay: 0.2s" href="file:///Users/linyulun/ground03.html" target="z1"><span class="material-symbols-outlined">
+        quiz
+          </span>QA</a>
+        <a style="animation-delay: 0.5s"  target="z1" ><span class="material-symbols-outlined">
+          bolt
+        </span>風景照<div class="image-container"> <img src="5423.JPG"></div></a>
+        
+      </nav>
+    </div>
+    
+
+    <div class="main">
+      <iframe name="z1" width="100%" height="100%" frameBorder="0"></iframe>
+    </div>
+
+    <!-- <div class="image-container">
+      <img src="5423.JPG">
+    </div> -->
+
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
+
+<!-- <iframe src="https://h5p.org/h5p/embed/64158" width="1090" height="707" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Image Juxtaposition"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script> -->
